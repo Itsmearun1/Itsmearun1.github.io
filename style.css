@@ -1,0 +1,191 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  margin: 50px 0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Navbar styles */
+#nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.navbar-logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Home section styles */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* About section styles */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#user-detail-name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#user-detail-intro {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 800px;
+}
+
+/* Skills section styles */
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills-card {
+  width: 250px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skills-card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.skills-card-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+/* Projects section styles */
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 350px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.project-description {
+  font-size: 16px;
+  margin: 10px;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.project-tech-stack {
+  font-size: 14px;
+  margin: 10px;
+  color: #777;
+}
+
+.project-github-link,
+.project-deployed-link {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-item i {
+  font-size: 24px;
+  color: #2ecc71;
+  margin-right: 10px;
+}
+
+.contact-item a {
+  color: #333;
+}
+
+.contact-item p {
+  margin: 0;
+}
