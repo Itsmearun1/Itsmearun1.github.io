@@ -39,17 +39,18 @@ a {
 }
 
 /* Navbar styles */
-#nav-menu {
+.nav-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 80px;
+  background-color: aqua;
 }
 
-.navbar-logo {
+/* .navbar-logo {
   font-size: 32px;
   font-weight: bold;
-}
+} */
 
 .nav-link {
   margin-left: 20px;
@@ -78,6 +79,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 1px solid blue;
 }
 
 #user-detail-name {
@@ -189,3 +191,4 @@ a {
 .contact-item p {
   margin: 0;
 }
+
